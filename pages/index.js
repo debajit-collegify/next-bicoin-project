@@ -7,7 +7,7 @@ const Index = (props) => (
     <Layout>
         <div>
             <h1>Welcome to BitCoinPrice Zone</h1>
-            <p>Check Current Bitcoin Rate Real Time</p>
+            <mark>Check Current Bitcoin Rate Real Time</mark>
             <Prices bpi={props.bpi}/>
         </div>
     </Layout>

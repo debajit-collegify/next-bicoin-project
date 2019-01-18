@@ -379,14 +379,14 @@ function (_React$Component) {
           lineNumber: 14
         },
         __self: this
-      }, "Bitcoin rate for ", this.props.bpi[this.state.currency].description, " :", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      }, "Bitcoin rate for ", this.props.bpi[this.state.currency].description, " : \xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: "badge badge-primary",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 15
         },
         __self: this
-      }, this.props.bpi[this.state.currency].code), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+      }, this.props.bpi[this.state.currency].code), "\xA0", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
@@ -431,7 +431,62 @@ function (_React$Component) {
           lineNumber: 23
         },
         __self: this
-      }, "EUR")));
+      }, "EUR")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "h3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        },
+        __self: this
+      }, "Details of Pricing"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "card",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "card-header",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
+      }, this.state.currency), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "card-body",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+        className: "card-title",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        },
+        __self: this
+      }, "Bitcoin rate : ", this.props.bpi[this.state.currency].description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "card-text",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }, this.props.bpi[this.state.currency].code), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "card-text",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        },
+        __self: this
+      }, this.props.bpi[this.state.currency].rate))));
     }
   }]);
 
@@ -490,7 +545,7 @@ var Index = function Index(props) {
       lineNumber: 9
     },
     __self: this
-  }, "Welcome to BitCoinPrice Zone"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  }, "Welcome to BitCoinPrice Zone"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("mark", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
